@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_details",
+  "info": {
+    "singularName": "order-detail",
+    "pluralName": "order-details",
+    "displayName": "order_detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quantity": {
+      "type": "integer"
+    },
+    "buy_price": {
+      "type": "float"
+    },
+    "order_id": {
+      "type": "integer"
+    },
+    "product_id": {
+      "type": "integer"
+    }
+  }
+}

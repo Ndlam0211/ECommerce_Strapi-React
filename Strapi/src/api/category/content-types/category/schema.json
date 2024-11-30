@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category_name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "parent_id": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string",
+      "default": "0"
+    },
+    "has_child": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
